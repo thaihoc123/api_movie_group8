@@ -1,0 +1,7 @@
+@use "../scss/" as *;
+.iframe-video{
+    @include mobile{
+        width: 100%;
+        height: 400px;
+    }
+}
